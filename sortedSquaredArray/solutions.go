@@ -14,6 +14,7 @@ func SortedSquaredArray(array []int) []int {
 	for i := 0; i < len(array); i++ {
 		absVal := array[i] * array[i]
 
+		//inserting to output array in ascending order
 		for j := 0; j < len(returnArray); j++ {
 
 			if absVal > returnArray[j] && j < len(returnArray) {
@@ -27,11 +28,9 @@ func SortedSquaredArray(array []int) []int {
 				} else {
 					returnArray[j-1] = temp
 				}
-
 			}
 		}
 	}
 
 	return returnArray
-
 }

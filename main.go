@@ -1,15 +1,16 @@
 package main
 
 import (
-	sortedsquaredarray "algo/sortedsquaredarray"
-	"algo/tournamentwinner"
+	sortedsquaredarray "algo/sortedSquaredArray"
 	"fmt"
 )
 
 func main() {
-	inputArray := []int{1, 2, 3, 5, 6, 8, 9}
-	sortedsquaredarray.SortedSquaredArray(inputArray)
+	inputArray := []int{-7, -3, 1, 9, 22, 30}
+	fmt.Println(sortedsquaredarray.SortedSquaredArray(inputArray))
 
-	competitions := [][]string{{"HTML", "C#"}, {"C#", "Python"}, {"Python", "HTML"}}
-	fmt.Println(tournamentwinner.TournamentWinner(competitions, []int{0, 0, 1}))
+	//_input := []int{6, 4, 5, 1, 1, 8, 9, 3, -1, -2, 3, -5, 0}
+	//_input := []int{3, 5, 1, 6, 7, 2, 4, 8}
+
+	//fmt.Println(bubblesort.BubbleSortArray(_input))
 }

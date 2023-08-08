@@ -2,6 +2,11 @@ package tournamentwinner
 
 const HOME_TEAM_WON = 1
 
+/*
+TEST INPUT
+
+// competitions := [][]string{{"HTML", "C#"}, {"C#", "Python"}, {"Python", "HTML"}}
+*/
 func TournamentWinner(competitions [][]string, results []int) string {
 
 	maxPoint := 0
