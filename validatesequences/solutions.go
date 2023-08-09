@@ -1,4 +1,4 @@
-package validatesequence
+package validatesequences
 
 /*
 TEST INPUT
