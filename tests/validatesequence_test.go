@@ -1,7 +1,7 @@
 package tests
 
 import (
-	validatesequence "algo/ValidateSequence"
+	"algo/validatesequence"
 	"testing"
 )
 

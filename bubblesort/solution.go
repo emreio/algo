@@ -1,10 +1,6 @@
 package bubblesort
 
-import "fmt"
-
 func BubbleSortArray(input []int) []int {
-
-	fmt.Println(input)
 
 	swapped := true
 
